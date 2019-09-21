@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		925CD2EE283159C61F9D6AB0 /* Pods_NestedTableViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF576E4E59A251388F4BF11 /* Pods_NestedTableViewUITests.framework */; };
+		B663FA564FB806F157AE858A /* Pods_NestedTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37B57FA4B6E6962D4D1A268 /* Pods_NestedTableView.framework */; };
 		D0C47FE6232E4B5000C20857 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C47FE5232E4B5000C20857 /* AppDelegate.swift */; };
 		D0C47FE8232E4B5000C20857 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C47FE7232E4B5000C20857 /* ViewController.swift */; };
 		D0C47FEB232E4B5000C20857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C47FE9232E4B5000C20857 /* Main.storyboard */; };
@@ -14,6 +16,16 @@
 		D0C47FF0232E4B5200C20857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C47FEE232E4B5200C20857 /* LaunchScreen.storyboard */; };
 		D0C47FFB232E4B5200C20857 /* NestedTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C47FFA232E4B5200C20857 /* NestedTableViewTests.swift */; };
 		D0C48006232E4B5200C20857 /* NestedTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C48005232E4B5200C20857 /* NestedTableViewUITests.swift */; };
+		D0C48018232E4CF500C20857 /* ParentListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C48016232E4CF500C20857 /* ParentListItemTableViewCell.swift */; };
+		D0C48019232E4CF500C20857 /* ParentListItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0C48017232E4CF500C20857 /* ParentListItemTableViewCell.xib */; };
+		D0C4801C232E4E4F00C20857 /* ChildListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C4801A232E4E4F00C20857 /* ChildListItemTableViewCell.swift */; };
+		D0C4801D232E4E4F00C20857 /* ChildListItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0C4801B232E4E4F00C20857 /* ChildListItemTableViewCell.xib */; };
+		D0C48020232E532F00C20857 /* ChildVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C4801F232E532F00C20857 /* ChildVo.swift */; };
+		D0C48022232E537300C20857 /* ParentVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C48021232E537300C20857 /* ParentVO.swift */; };
+		D0C48025232E53CA00C20857 /* SharedConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C48024232E53CA00C20857 /* SharedConstant.swift */; };
+		D0D24BD823360543000C18B2 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D24BD723360543000C18B2 /* NetworkClient.swift */; };
+		D0D24BDA23360616000C18B2 /* ParentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D24BD923360616000C18B2 /* ParentModel.swift */; };
+		F7AB3F62E275251E49C01DD6 /* Pods_NestedTableViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF36D81DAD70625ED254AFDB /* Pods_NestedTableViewTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04EA14405F8602D0D5F2CD57 /* Pods-NestedTableViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedTableViewTests.debug.xcconfig"; path = "Target Support Files/Pods-NestedTableViewTests/Pods-NestedTableViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		195B2CEFC03A11F55FE7AD36 /* Pods-NestedTableViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedTableViewUITests.release.xcconfig"; path = "Target Support Files/Pods-NestedTableViewUITests/Pods-NestedTableViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		253287EDB312242A6C056529 /* Pods-NestedTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedTableView.release.xcconfig"; path = "Target Support Files/Pods-NestedTableView/Pods-NestedTableView.release.xcconfig"; sourceTree = "<group>"; };
+		581CA01DDACFCD389948AE5F /* Pods-NestedTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedTableView.debug.xcconfig"; path = "Target Support Files/Pods-NestedTableView/Pods-NestedTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		6DF576E4E59A251388F4BF11 /* Pods_NestedTableViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestedTableViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D19E038F38AE90EBD045CB0 /* Pods-NestedTableViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedTableViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-NestedTableViewUITests/Pods-NestedTableViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A37B57FA4B6E6962D4D1A268 /* Pods_NestedTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestedTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B45628EF52CDE98E3FE5AFA4 /* Pods-NestedTableViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedTableViewTests.release.xcconfig"; path = "Target Support Files/Pods-NestedTableViewTests/Pods-NestedTableViewTests.release.xcconfig"; sourceTree = "<group>"; };
 		D0C47FE2232E4B5000C20857 /* NestedTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestedTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C47FE5232E4B5000C20857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0C47FE7232E4B5000C20857 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +67,16 @@
 		D0C48001232E4B5200C20857 /* NestedTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestedTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C48005232E4B5200C20857 /* NestedTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTableViewUITests.swift; sourceTree = "<group>"; };
 		D0C48007232E4B5200C20857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0C48016232E4CF500C20857 /* ParentListItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentListItemTableViewCell.swift; sourceTree = "<group>"; };
+		D0C48017232E4CF500C20857 /* ParentListItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParentListItemTableViewCell.xib; sourceTree = "<group>"; };
+		D0C4801A232E4E4F00C20857 /* ChildListItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildListItemTableViewCell.swift; sourceTree = "<group>"; };
+		D0C4801B232E4E4F00C20857 /* ChildListItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChildListItemTableViewCell.xib; sourceTree = "<group>"; };
+		D0C4801F232E532F00C20857 /* ChildVo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildVo.swift; sourceTree = "<group>"; };
+		D0C48021232E537300C20857 /* ParentVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentVO.swift; sourceTree = "<group>"; };
+		D0C48024232E53CA00C20857 /* SharedConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedConstant.swift; sourceTree = "<group>"; };
+		D0D24BD723360543000C18B2 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		D0D24BD923360616000C18B2 /* ParentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentModel.swift; sourceTree = "<group>"; };
+		DF36D81DAD70625ED254AFDB /* Pods_NestedTableViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestedTableViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B663FA564FB806F157AE858A /* Pods_NestedTableView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7AB3F62E275251E49C01DD6 /* Pods_NestedTableViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +100,86 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				925CD2EE283159C61F9D6AB0 /* Pods_NestedTableViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48FD495A2E50C66F463F8AF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A37B57FA4B6E6962D4D1A268 /* Pods_NestedTableView.framework */,
+				DF36D81DAD70625ED254AFDB /* Pods_NestedTableViewTests.framework */,
+				6DF576E4E59A251388F4BF11 /* Pods_NestedTableViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		681C534B3CD3FAD88DDB0C5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				581CA01DDACFCD389948AE5F /* Pods-NestedTableView.debug.xcconfig */,
+				253287EDB312242A6C056529 /* Pods-NestedTableView.release.xcconfig */,
+				04EA14405F8602D0D5F2CD57 /* Pods-NestedTableViewTests.debug.xcconfig */,
+				B45628EF52CDE98E3FE5AFA4 /* Pods-NestedTableViewTests.release.xcconfig */,
+				9D19E038F38AE90EBD045CB0 /* Pods-NestedTableViewUITests.debug.xcconfig */,
+				195B2CEFC03A11F55FE7AD36 /* Pods-NestedTableViewUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D0A0942E233600F30011205A /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				D0A0942F233600F30011205A /* xibs */,
+				D0A09430233600F30011205A /* swifts */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		D0A0942F233600F30011205A /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				D0C48017232E4CF500C20857 /* ParentListItemTableViewCell.xib */,
+				D0C4801B232E4E4F00C20857 /* ChildListItemTableViewCell.xib */,
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
+		D0A09430233600F30011205A /* swifts */ = {
+			isa = PBXGroup;
+			children = (
+				D0C4801A232E4E4F00C20857 /* ChildListItemTableViewCell.swift */,
+				D0C48016232E4CF500C20857 /* ParentListItemTableViewCell.swift */,
+			);
+			path = swifts;
+			sourceTree = "<group>";
+		};
+		D0A09431233601A10011205A /* models */ = {
+			isa = PBXGroup;
+			children = (
+				D0D24BD923360616000C18B2 /* ParentModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		D0A09432233601A20011205A /* base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		D0A09433233601A20011205A /* networkClient */ = {
+			isa = PBXGroup;
+			children = (
+				D0D24BD723360543000C18B2 /* NetworkClient.swift */,
+			);
+			path = networkClient;
+			sourceTree = "<group>";
+		};
 		D0C47FD9232E4B5000C20857 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +187,8 @@
 				D0C47FF9232E4B5200C20857 /* NestedTableViewTests */,
 				D0C48004232E4B5200C20857 /* NestedTableViewUITests */,
 				D0C47FE3232E4B5000C20857 /* Products */,
+				681C534B3CD3FAD88DDB0C5D /* Pods */,
+				48FD495A2E50C66F463F8AF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +205,15 @@
 		D0C47FE4232E4B5000C20857 /* NestedTableView */ = {
 			isa = PBXGroup;
 			children = (
-				D0C47FE5232E4B5000C20857 /* AppDelegate.swift */,
-				D0C47FE7232E4B5000C20857 /* ViewController.swift */,
-				D0C47FE9232E4B5000C20857 /* Main.storyboard */,
-				D0C47FEC232E4B5200C20857 /* Assets.xcassets */,
-				D0C47FEE232E4B5200C20857 /* LaunchScreen.storyboard */,
-				D0C47FF1232E4B5200C20857 /* Info.plist */,
+				D0A09432233601A20011205A /* base */,
+				D0A09431233601A10011205A /* models */,
+				D0A09433233601A20011205A /* networkClient */,
+				D0A0942E233600F30011205A /* cells */,
+				D0C48023232E53BD00C20857 /* utils */,
+				D0C4801E232E531D00C20857 /* vos */,
+				D0C48015232E4B9100C20857 /* views */,
+				D0C48014232E4B8600C20857 /* viewControlers */,
+				D0C48013232E4B7F00C20857 /* others */,
 			);
 			path = NestedTableView;
 			sourceTree = "<group>";
@@ -125,6 +236,50 @@
 			path = NestedTableViewUITests;
 			sourceTree = "<group>";
 		};
+		D0C48013232E4B7F00C20857 /* others */ = {
+			isa = PBXGroup;
+			children = (
+				D0C47FEE232E4B5200C20857 /* LaunchScreen.storyboard */,
+				D0C47FF1232E4B5200C20857 /* Info.plist */,
+				D0C47FEC232E4B5200C20857 /* Assets.xcassets */,
+				D0C47FE5232E4B5000C20857 /* AppDelegate.swift */,
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		D0C48014232E4B8600C20857 /* viewControlers */ = {
+			isa = PBXGroup;
+			children = (
+				D0C47FE7232E4B5000C20857 /* ViewController.swift */,
+			);
+			path = viewControlers;
+			sourceTree = "<group>";
+		};
+		D0C48015232E4B9100C20857 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				D0C47FE9232E4B5000C20857 /* Main.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		D0C4801E232E531D00C20857 /* vos */ = {
+			isa = PBXGroup;
+			children = (
+				D0C4801F232E532F00C20857 /* ChildVo.swift */,
+				D0C48021232E537300C20857 /* ParentVO.swift */,
+			);
+			path = vos;
+			sourceTree = "<group>";
+		};
+		D0C48023232E53BD00C20857 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				D0C48024232E53CA00C20857 /* SharedConstant.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0C4800A232E4B5200C20857 /* Build configuration list for PBXNativeTarget "NestedTableView" */;
 			buildPhases = (
+				F88CCC2056547E19DA74D2D8 /* [CP] Check Pods Manifest.lock */,
 				D0C47FDE232E4B5000C20857 /* Sources */,
 				D0C47FDF232E4B5000C20857 /* Frameworks */,
 				D0C47FE0232E4B5000C20857 /* Resources */,
+				9B05C7DEF0E0048CD74207A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +306,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0C4800D232E4B5200C20857 /* Build configuration list for PBXNativeTarget "NestedTableViewTests" */;
 			buildPhases = (
+				3802F23053521EFF729821E0 /* [CP] Check Pods Manifest.lock */,
 				D0C47FF2232E4B5200C20857 /* Sources */,
 				D0C47FF3232E4B5200C20857 /* Frameworks */,
 				D0C47FF4232E4B5200C20857 /* Resources */,
@@ -167,6 +325,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0C48010232E4B5200C20857 /* Build configuration list for PBXNativeTarget "NestedTableViewUITests" */;
 			buildPhases = (
+				B67BF37E729DD49BAE51B135 /* [CP] Check Pods Manifest.lock */,
 				D0C47FFD232E4B5200C20857 /* Sources */,
 				D0C47FFE232E4B5200C20857 /* Frameworks */,
 				D0C47FFF232E4B5200C20857 /* Resources */,
@@ -229,8 +388,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C48019232E4CF500C20857 /* ParentListItemTableViewCell.xib in Resources */,
 				D0C47FF0232E4B5200C20857 /* LaunchScreen.storyboard in Resources */,
 				D0C47FED232E4B5200C20857 /* Assets.xcassets in Resources */,
+				D0C4801D232E4E4F00C20857 /* ChildListItemTableViewCell.xib in Resources */,
 				D0C47FEB232E4B5000C20857 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +412,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3802F23053521EFF729821E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NestedTableViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B05C7DEF0E0048CD74207A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NestedTableView/Pods-NestedTableView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NestedTableView/Pods-NestedTableView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NestedTableView/Pods-NestedTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B67BF37E729DD49BAE51B135 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NestedTableViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F88CCC2056547E19DA74D2D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NestedTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0C47FDE232E4B5000C20857 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C48020232E532F00C20857 /* ChildVo.swift in Sources */,
+				D0D24BDA23360616000C18B2 /* ParentModel.swift in Sources */,
 				D0C47FE8232E4B5000C20857 /* ViewController.swift in Sources */,
+				D0C48025232E53CA00C20857 /* SharedConstant.swift in Sources */,
+				D0C48022232E537300C20857 /* ParentVO.swift in Sources */,
 				D0C47FE6232E4B5000C20857 /* AppDelegate.swift in Sources */,
+				D0C4801C232E4E4F00C20857 /* ChildListItemTableViewCell.swift in Sources */,
+				D0C48018232E4CF500C20857 /* ParentListItemTableViewCell.swift in Sources */,
+				D0D24BD823360543000C18B2 /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,10 +684,11 @@
 		};
 		D0C4800B232E4B5200C20857 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 581CA01DDACFCD389948AE5F /* Pods-NestedTableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NestedTableView/Info.plist;
+				INFOPLIST_FILE = NestedTableView/others/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,10 +702,11 @@
 		};
 		D0C4800C232E4B5200C20857 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253287EDB312242A6C056529 /* Pods-NestedTableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NestedTableView/Info.plist;
+				INFOPLIST_FILE = NestedTableView/others/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +720,7 @@
 		};
 		D0C4800E232E4B5200C20857 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04EA14405F8602D0D5F2CD57 /* Pods-NestedTableViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +741,7 @@
 		};
 		D0C4800F232E4B5200C20857 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B45628EF52CDE98E3FE5AFA4 /* Pods-NestedTableViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +762,7 @@
 		};
 		D0C48011232E4B5200C20857 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D19E038F38AE90EBD045CB0 /* Pods-NestedTableViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +782,7 @@
 		};
 		D0C48012232E4B5200C20857 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 195B2CEFC03A11F55FE7AD36 /* Pods-NestedTableViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
